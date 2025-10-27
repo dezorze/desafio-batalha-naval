@@ -34,27 +34,35 @@ void lines(int linhas, int cols, int table[10][10]) {
     }
 }
 
-//Habilidades
+//Habilidade Cone. Aqui testei colocar 3 fors, um dentro do outro.
 void cone(int table[10][10]) {
-    
-}
-
-//Octaedro
-void octaedro(int table[10][10]) {
-    for(int i = 0; i < 3; i++){
-        table[1][i] = 3;
-        for(int j = 0; j < 3; j++) {
-            table[j][1] = 3;
+    for(int i = 5; i < 10; i++) {
+        table[3][i] = 1;
+        for(int i = 6; i < 9; i++) {
+            table[4][i] = 1;
+            for(int i = 7; i < 8; i++) {
+                table[5][i] = 1; 
+            }
         }
     }
 }
 
-//Cruz
+//Habilidade Octaedro
+void octaedro(int table[10][10]) {
+    for(int i = 0; i < 3; i++){
+        table[1][i] = 1;
+        for(int j = 0; j < 3; j++) {
+            table[j][1] = 1;
+        }
+    }
+}
+
+//Habilidade Cruz
 void cruz(int table[10][10]) {
     for(int i = 5; i < 10; i++){
-        table[1][i] = 3;
+        table[1][i] = 1;
         for(int j = 0; j < 3; j++) {
-            table[j][7] = 3;
+            table[j][7] = 1;
         }
     }
 }
