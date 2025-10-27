@@ -47,6 +47,7 @@ void cone(int table[10][10]) {
     }
 }
 
+
 //Habilidade Octaedro
 void octaedro(int table[10][10]) {
     for(int i = 0; i < 3; i++){
@@ -92,3 +93,19 @@ int main() {
 
     return 0;
 }
+
+
+// Veja o result que é impresso:
+///
+    A B C D E F G H I J
+ 1  0 1 0 0 0 0 0 1 0 0
+ 2  1 1 1 0 0 1 1 1 1 1
+ 3  0 1 0 0 0 0 0 1 0 0
+ 4  0 0 0 3 0 1 1 1 1 1
+ 5  0 0 0 3 0 0 1 1 1 0
+ 6  0 0 0 3 0 0 0 1 0 0
+ 7  0 0 0 0 0 0 0 0 0 0
+ 8  0 0 0 0 0 0 0 0 0 0
+ 9  0 0 0 0 0 0 0 3 3 3
+10  0 0 0 0 0 0 0 0 0 0
+///
