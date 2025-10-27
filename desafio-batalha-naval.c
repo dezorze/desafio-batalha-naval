@@ -95,17 +95,17 @@ int main() {
 }
 
 
-// Veja o result que é impresso:
-///
-    A B C D E F G H I J
- 1  0 1 0 0 0 0 0 1 0 0
- 2  1 1 1 0 0 1 1 1 1 1
- 3  0 1 0 0 0 0 0 1 0 0
- 4  0 0 0 3 0 1 1 1 1 1
- 5  0 0 0 3 0 0 1 1 1 0
- 6  0 0 0 3 0 0 0 1 0 0
- 7  0 0 0 0 0 0 0 0 0 0
- 8  0 0 0 0 0 0 0 0 0 0
- 9  0 0 0 0 0 0 0 3 3 3
-10  0 0 0 0 0 0 0 0 0 0
-///
+// Veja o result que é impresso. Eu quis dar uma 'complicada'.
+// Coloquei num mesmo tabuleiro 2 navios (representados pelo num 3) e as habilidades
+// Cone, Octaedro e Cruz (representados pelo num 1). A água é representada pelo 0:
+//     A B C D E F G H I J
+//  1  0 1 0 0 0 0 0 1 0 0
+//  2  1 1 1 0 0 1 1 1 1 1
+//  3  0 1 0 0 0 0 0 1 0 0
+//  4  0 0 0 3 0 1 1 1 1 1
+//  5  0 0 0 3 0 0 1 1 1 0
+//  6  0 0 0 3 0 0 0 1 0 0
+//  7  0 0 0 0 0 0 0 0 0 0
+//  8  0 0 0 0 0 0 0 0 0 0
+//  9  0 0 0 0 0 0 0 3 3 3
+// 10  0 0 0 0 0 0 0 0 0 0
